@@ -1,78 +1,116 @@
 module.exports = {
-  "media": [
+  media: [
     {
-      "id": 1,
-      "url": "https://www.placehold.it/200x200",
-      "title": "Great Gray Box",
-      "description": "This is a square. It is gray. Or grey. It is 200 pixels wide by 200 pixels tall."
-    }
+      id: 1,
+      url: "https://www.placehold.it/200x200",
+      title: "Great Gray Box",
+      description:
+        "This is a square. It is gray. Or grey. It is 200 pixels wide by 200 pixels tall.",
+    },
   ],
-  "routines": [
+  routines: [
     {
-      "id": 1,
-      "title": "Walking Out Front Door",
-      "description": "A dangerous thing indeed",
-      "media_id": 1,
-      "category": "official",
-      "public": true
+      id: 1,
+      title: "Walking Out Front Door",
+      description: "A dangerous thing indeed",
+      media_id: 1,
+      category: "official",
+      public: true,
     },
     {
-      "id": 2,
-      "title": "Taunting Dragons",
-      "description": "This seems like a smart decision",
-      "media_id": 1,
-      "status":"community",
-      "public": true,
-      "votes": 13
-    }
+      id: 2,
+      title: "Taunting Dragons",
+      description: "This seems like a smart decision",
+      media_id: 1,
+      status: "community",
+      public: true,
+      votes: 13,
+    },
   ],
-  "sessions": [
+  sessions: [
     {
-      "id": 1,
-      "user_id": 1,
-      "name": "Getting wet",
-      "routine_id": 1,
-      "status":"completed"
+      id: 1,
+      user_id: 1,
+      name: "Getting wet",
+      routine_id: 1,
+      status: "upcoming",
+      start_time: "2022-07-01T12:00:00Z",
+      end_time: "2022-07-01T13:00:00Z",
     },
     {
-      "id": 2,
-      "user_id": 1,
-      "name": "meeting trolls",
-      "routine_id": 1,
-      "status":"upcoming"
+      id: 2,
+      user_id: 1,
+      name: "meeting trolls",
+      routine_id: 1,
+      status: "completed",
+      start_time: "2022-04-01T12:00:00Z",
+      end_time: "2022-04-01T12:40:00Z",
     },
     {
-      "id": 3,
-      "user_id": 1,
-      "name": "climbing mountains",
-      "routine_id": 1,
-      "status":"upcoming"
+      id: 3,
+      user_id: 1,
+      name: "climbing mountains",
+      routine_id: 1,
+      status: "completed",
+      start_time: "2022-05-01T10:00:00Z",
+      end_time: "2022-05-01T11:00:00Z",
     },
     {
-      "id": 4,
-      "user_id": 1,
-      "name": "finding a ring",
-      "routine_id": 1,
-      "status":"upcoming"
+      id: 4,
+      user_id: 1,
+      name: "finding a ring",
+      routine_id: 1,
+      status: "upcoming",
+      start_time: "2022-06-20T16:43:00Z",
+      end_time: "2022-06-20T17:43:00Z",
     },
     {
-      "id": 5,
-      "user_id": 1,
-      "name": "playing riddle master",
-      "routine_id": 2,
-      "status":"upcoming"
-    }
+      id: 5,
+      user_id: 1,
+      name: "playing riddle master",
+      routine_id: 2,
+      status: "upcoming",
+      start_time: "2022-08-01T12:00:00Z",
+      end_time: "2022-08-01T12:30:00Z",
+    },
+    {
+      id: 6,
+      user_id: 1,
+      name: "seeing scroll",
+      routine_id: 2,
+      status: "upcoming",
+      start_time: "2022-08-01T12:00:00Z",
+      end_time: "2022-08-01T12:30:00Z",
+    },
+    {
+      id: 7,
+      user_id: 1,
+      name: "forever scrolling",
+      routine_id: 2,
+      status: "upcoming",
+      start_time: "2022-08-01T12:00:00Z",
+      end_time: "2022-08-01T12:30:00Z",
+    },
+    {
+      id: 8,
+      user_id: 1,
+      name: "far down we go",
+      routine_id: 2,
+      status: "upcoming",
+      start_time: "2022-08-01T12:00:00Z",
+      end_time: "2022-08-01T12:30:00Z",
+    },
   ],
-  "users": [
+  users: [
     {
-      "id": 1,
-      "name": "Bilbo Baggins",
-      "email": "shouldastayedhome@notreal.com"
+      id: 1,
+      name: "Bilbo Baggins",
+      email: "shouldastayedhome@notreal.com",
     },
     {
-      "id": 2,
-      "name": "Frodo Baggins",
-      "email": "ninefingers@notreal.com"
+      id: 2,
+      name: "Frodo Baggins",
+      email: "ninefingers@notreal.com",
     },
-  ]
-}
+  ],
+};
